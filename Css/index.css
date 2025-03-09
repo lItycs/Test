@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.menu-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.category {
+    background: #ff9800;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.items {
+    padding: 10px;
+}
+
+.item {
+    background: #f1f1f1;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
